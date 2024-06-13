@@ -39,5 +39,7 @@ public:
         node* parent = nullptr;
         node* currentNode = nullptr;
         search(element, parent, currentNode); // locate the node which will be the parent of the node to be insert
+
+        if (parent == nullptr) // if the parent is NULL (Tree is empty)
     }
 }
