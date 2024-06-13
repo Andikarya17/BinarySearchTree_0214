@@ -10,6 +10,11 @@ public:
     node* rightchild;
 
     //constructor for the node class
-    Node(string i, Node* l, Node* r)
-    
+    node(string i, node* l, node* r)
+    {
+        info = 1;
+        leftchild = l;
+        rightchild = r;
+    }
+
 };
